@@ -1,0 +1,21 @@
+{
+    "brim_type": "brim_ears",
+    "from": "User",
+    "inherits": "Ellis_PIF_Standard_15mm3 - 0.4 nozzle",
+    "is_custom_defined": "0",
+    "name": "TREE_Ellis_PIF_Standard_15mm3 - 0.4 nozzle",
+    "print_settings_id": "TREE_Ellis_PIF_Standard_15mm3 - 0.4 nozzle",
+    "raft_first_layer_expansion": "4",
+    "reduce_crossing_wall": "1",
+    "sparse_infill_density": "30%",
+    "support_base_pattern": "rectilinear-grid",
+    "support_base_pattern_spacing": "2.5",
+    "support_interface_spacing": "0",
+    "support_object_xy_distance": "0.5",
+    "support_style": "default",
+    "support_top_z_distance": "0.25",
+    "tree_support_branch_distance_organic": "3",
+    "tree_support_wall_count": "1",
+    "version": "2.2.0.0",
+    "wall_loops": "5"
+}

@@ -1,0 +1,40 @@
+{
+    "bridge_speed": "90",
+    "brim_type": "auto_brim",
+    "brim_width": "5",
+    "default_acceleration": "2000",
+    "enable_overhang_speed": "1",
+    "from": "User",
+    "inherits": "Ellis_PIF_Standard_15mm3 - 0.4 nozzle",
+    "inner_wall_acceleration": "1500",
+    "inner_wall_speed": "80",
+    "internal_bridge_speed": "120%",
+    "internal_solid_infill_speed": "100",
+    "name": "PETG_Ellis_PIF_Standard_15mm3 - 0.4 nozzle",
+    "outer_wall_acceleration": "800",
+    "outer_wall_speed": "60",
+    "overhang_1_4_speed": "60",
+    "overhang_2_4_speed": "40",
+    "overhang_3_4_speed": "20",
+    "overhang_4_4_speed": "10",
+    "print_extruder_id": [
+        "1"
+    ],
+    "print_extruder_variant": [
+        "Direct Drive Standard"
+    ],
+    "print_settings_id": "PETG_Ellis_PIF_Standard_15mm3 - 0.4 nozzle",
+    "reduce_crossing_wall": "1",
+    "slow_down_layers": "3",
+    "small_perimeter_threshold": "25",
+    "sparse_infill_density": "20%",
+    "sparse_infill_speed": "80",
+    "support_interface_speed": "40",
+    "support_speed": "80",
+    "support_style": "default",
+    "support_type": "normal(auto)",
+    "top_surface_speed": "50",
+    "travel_acceleration": "2500",
+    "travel_speed": "250",
+    "version": "2.2.0.0"
+}

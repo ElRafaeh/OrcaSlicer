@@ -1,0 +1,29 @@
+{
+    "compatible_printers": [
+        "Sovol SV06 Plus 0.4 nozzle",
+        "SV06 Plus 0.4 nozzle"
+    ],
+    "default_filament_colour": [
+        "#FFFFFF"
+    ],
+    "filament_settings_id": [
+        "Elegoo PLA+ - White"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "Generic PLA @System",
+    "is_custom_defined": "0",
+    "name": "Elegoo PLA+ - White",
+    "nozzle_temperature": [
+        "190"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "200"
+    ],
+    "version": "2.3.1.10"
+}

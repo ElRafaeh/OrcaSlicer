@@ -1,0 +1,35 @@
+{
+    "compatible_printers": [
+        "Sovol SV06 Plus 0.4 nozzle",
+        "SV06 Plus 0.4 nozzle"
+    ],
+    "default_filament_colour": [
+        "#FFFFFF"
+    ],
+    "filament_settings_id": [
+        "Smartfil PLA - Ivory White"
+    ],
+    "filament_z_hop": [
+        "0.4"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "60"
+    ],
+    "inherits": "Generic PLA @System",
+    "is_custom_defined": "0",
+    "name": "Smartfil PLA - Ivory White",
+    "nozzle_temperature": [
+        "205"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "205"
+    ],
+    "overhang_fan_threshold": [
+        "25%"
+    ],
+    "version": "2.3.1.10"
+}

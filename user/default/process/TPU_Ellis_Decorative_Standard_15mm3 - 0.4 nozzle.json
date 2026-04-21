@@ -1,0 +1,14 @@
+{
+    "brim_type": "auto_brim",
+    "enable_overhang_speed": "1",
+    "from": "User",
+    "gap_fill_target": "everywhere",
+    "infill_wall_overlap": "30%",
+    "inherits": "Ellis_Decorative_Standard_15mm3 - 0.4 nozzle",
+    "internal_solid_infill_pattern": "concentric",
+    "is_custom_defined": "0",
+    "name": "TPU_Ellis_Decorative_Standard_15mm3 - 0.4 nozzle",
+    "print_settings_id": "TPU_Ellis_Decorative_Standard_15mm3 - 0.4 nozzle",
+    "travel_speed": "150",
+    "version": "2.2.0.0"
+}

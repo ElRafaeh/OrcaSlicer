@@ -1,0 +1,26 @@
+{
+    "compatible_printers": [
+        "Sovol SV06 Plus 0.4 nozzle",
+        "SV06 Plus 0.4 nozzle"
+    ],
+    "default_filament_colour": [
+        "#000000"
+    ],
+    "filament_settings_id": [
+        "Elegoo PLA+ Rapid - Black"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "60"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "65"
+    ],
+    "inherits": "Generic PLA @System",
+    "is_custom_defined": "0",
+    "name": "Elegoo PLA+ Rapid - Black",
+    "nozzle_temperature": [
+        "215"
+    ],
+    "version": "2.3.1.10"
+}

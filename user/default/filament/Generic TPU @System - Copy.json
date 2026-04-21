@@ -1,0 +1,16 @@
+{
+    "compatible_printers": [
+        "SV06 Plus 0.4 nozzle"
+    ],
+    "filament_max_volumetric_speed": [
+        "3"
+    ],
+    "filament_settings_id": [
+        "Generic TPU @System - Copy"
+    ],
+    "from": "User",
+    "inherits": "Generic TPU @System",
+    "is_custom_defined": "0",
+    "name": "Generic TPU @System - Copy",
+    "version": "2.3.1.10"
+}
