@@ -10,6 +10,7 @@
     "bed_mesh_max": "99999,99999",
     "bed_mesh_min": "-99999,-99999",
     "bed_mesh_probe_distance": "50,50",
+    "bed_temperature_formula": "by_highest_temp",
     "before_layer_change_gcode": "; TIMELAPSE_TAKE_FRAME",
     "best_object_pos": "0.5,0.5",
     "change_extrusion_role_gcode": "",
@@ -20,6 +21,9 @@
     "default_filament_profile": [
         "Prusament PLA"
     ],
+    "default_nozzle_volume_type": [
+        "Standard"
+    ],
     "default_print_profile": "0.15mm QUALITY @MK3",
     "deretraction_speed": [
         "40"
@@ -28,6 +32,7 @@
     "emit_machine_limits_to_gcode": "1",
     "enable_filament_ramming": "1",
     "enable_long_retraction_when_cut": "0",
+    "enable_power_loss_recovery": "printer_configuration",
     "extra_loading_move": "-2",
     "extruder_clearance_height_to_lid": "120",
     "extruder_clearance_height_to_rod": "40",
@@ -38,16 +43,29 @@
     "extruder_offset": [
         "0x0"
     ],
+    "extruder_printable_area": [],
+    "extruder_printable_height": [
+        "0"
+    ],
+    "extruder_type": [
+        "Direct Drive"
+    ],
+    "extruder_variant_list": [
+        "Direct Drive Standard"
+    ],
     "fan_kickstart": "0",
     "fan_speedup_overhangs": "1",
     "fan_speedup_time": "0",
+    "file_start_gcode": "",
     "from": "User",
     "gcode_flavor": "klipper",
+    "grab_length": [
+        "0"
+    ],
     "head_wrap_detect_zone": [],
     "high_current_on_filament_swap": "0",
     "host_type": "octoprint",
     "inherits": "",
-    "is_custom_defined": "0",
     "layer_change_gcode": "",
     "long_retractions_when_cut": [
         "0"
@@ -131,6 +149,7 @@
     "machine_tool_change_time": "0",
     "machine_unload_filament_time": "0",
     "manual_filament_change": "0",
+    "master_extruder_id": "1",
     "max_layer_height": [
         "0.25"
     ],
@@ -143,14 +162,24 @@
     "nozzle_diameter": [
         "0.4"
     ],
+    "nozzle_flush_dataset": [
+        "0"
+    ],
     "nozzle_height": "2.5",
     "nozzle_hrc": "0",
-    "nozzle_type": "undefine",
-    "nozzle_volume": "0",
+    "nozzle_type": [
+        "undefine"
+    ],
+    "nozzle_volume": [
+        "0"
+    ],
     "parking_pos_retraction": "92",
     "pellet_modded_printer": "0",
+    "physical_extruder_map": [
+        "0"
+    ],
     "preferred_orientation": "0",
-    "print_host": "192.168.18.78",
+    "print_host": "192.168.1.135",
     "print_host_webui": "",
     "printable_area": [
         "0x0",
@@ -159,6 +188,13 @@
         "0x300"
     ],
     "printable_height": "340",
+    "printer_agent": "",
+    "printer_extruder_id": [
+        "1"
+    ],
+    "printer_extruder_variant": [
+        "Direct Drive Standard"
+    ],
     "printer_model": "Sovol SV06 Plus",
     "printer_notes": "; For sequential printing,\n; set Extruder clearance\n; Radius: 66 (actual 64.33)\n; Height: 26 (actual 24.87)\n\nDo not make changes to the following keywords:\nPRINTER_MODEL_SV06Plus",
     "printer_settings_id": "SV06 Plus 0.4 nozzle",
@@ -217,6 +253,7 @@
     "support_air_filtration": "1",
     "support_chamber_temp_control": "1",
     "support_multi_bed_types": "0",
+    "support_object_skip_flush": "0",
     "template_custom_gcode": "",
     "thumbnails": "32x32/PNG, 400x300/PNG",
     "thumbnails_format": "PNG",
@@ -235,6 +272,10 @@
     "wipe_distance": [
         "1"
     ],
+    "wipe_tower_type": "type2",
+    "wrapping_detection_gcode": "",
+    "wrapping_detection_layers": "20",
+    "wrapping_exclude_area": [],
     "z_hop": [
         "0"
     ],

@@ -1,0 +1,6 @@
+# Ignore everything by default
+/*
+
+# ...but keep the user configuration folder and this file
+!/user/
+!/.gitignore
